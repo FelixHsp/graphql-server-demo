@@ -1,0 +1,31 @@
+{
+  "name": "graphql-server-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src -e ts,tsx --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixHsp/graphql-server-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelixHsp/graphql-server-demo/issues"
+  },
+  "homepage": "https://github.com/FelixHsp/graphql-server-demo#readme",
+  "dependencies": {
+    "apollo-datasource-rest": "^3.7.0",
+    "apollo-server-koa": "^3.10.2",
+    "graphql": "^16.6.0",
+    "koa": "^2.13.4",
+    "koa-cors": "^0.0.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^3.7.5"
+  }
+}
